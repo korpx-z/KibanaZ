@@ -23,7 +23,7 @@
 #
 ##############################################################################################################
 # Base Image
-FROM quay.io/ibmz/ubuntu:20.04 AS builder
+FROM quay.io/ibmz/ubuntu:18.04 AS builder
 
 ARG KIBANA_VER=7.9.1
 
