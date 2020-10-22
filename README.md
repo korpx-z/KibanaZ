@@ -22,7 +22,7 @@ Kibana is licensed under the Elastic License https://github.com/elastic/logstash
 
 # Supported tags and respective `Dockerfile` links
 
--	[`7.9.2`](https://github.com/YBA-IBM/KibanaZ/blob/main/Kibana/Dockerfile)
+-	[`7.9.1`](https://github.com/YBA-IBM/KibanaZ/blob/main/Kibana/Dockerfile)
 
 # Quick reference (cont.)
 
