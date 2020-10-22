@@ -10,7 +10,7 @@ echo -e "\n $ANSI_YELLOW *** FUNCTIONAL TEST(S) *** $ANSI_RESET \n"
 
 echo -e "$ANSI_YELLOW It can run a Java program: $ANSI_RESET"
 docker network create somenetwork
-docker run -d --name kibana --net somenetwork -p 5601:5601 kibana:7.9.2
+docker run -d --name kibana --net somenetwork -p 5601:5601 kibana:7.9.1
 docker stop kibana
 docker network rm somenetwork
 
