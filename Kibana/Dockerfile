@@ -96,9 +96,10 @@ RUN sudo apt-get update && sudo apt-get install -y \
  && sudo rm -rf $WORKDIR/kibana* $WORKDIR/node-v10.22.0-linux-s390x.tar.gz \
  && sudo rm -rf /var/lib/apt/lists/* $HOME/.cache
 
-FROM s390x/ubuntu:18.04
+FROM quay.io/ibmz/ubuntu:18.04 
 ENV WORKDIR=/home/kibana
 COPY --from=builder /usr/share/kibana/ /usr/share/kibana/
+
 RUN apt-get update && apt-get install -y sudo wget tar && groupadd -r kibana \
 && useradd -g kibana -m kibana \
 && echo "kibana ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers \
