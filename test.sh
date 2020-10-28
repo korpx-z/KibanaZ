@@ -8,7 +8,7 @@ export ANSI_RESET="\e[0m"
 
 echo -e "\n $ANSI_YELLOW *** FUNCTIONAL TEST(S) *** $ANSI_RESET \n"
 
-echo -e "$ANSI_YELLOW It can run a Java program: $ANSI_RESET"
+echo -e "$ANSI_YELLOW It can run a Kibana container: $ANSI_RESET"
 docker network create somenetwork
 docker run -d --name kibana --net somenetwork -p 5601:5601 quay.io/ibmz/kibana:7.9.1
 docker stop kibana
