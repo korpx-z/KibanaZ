@@ -1,11 +1,13 @@
-# Kibana
+### This image is built to run on s390x architecture.
+-    [build source](https://github.com/YBA-IBM/KibanaZ)
+-    [original source code](https://github.com/linux-on-ibm-z/dockerfile-examples/tree/master/Kibana)
 
 # Tags
 
--	[`7.9.1`](https://github.com/YBA-IBM/KibanaZ/blob/main/Kibana/Dockerfile)
+-	[`7.9.1`]
 
 
-# What is Kibana?
+# Kibana
 
 Kibana is an open source analytics and visualization platform designed to work with Elasticsearch. You use Kibana to search, view, and interact with data stored in Elasticsearch indices. You can easily perform advanced data analysis and visualize your data in a variety of charts, tables, and maps.
 
